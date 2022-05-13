@@ -1,0 +1,61 @@
+.galeria {
+    padding: 0  9.5rem;
+}
+
+.galeria__productosLinea {
+    padding: 2rem 0;
+}
+
+.galeria_productosLinea-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galeria__titulo {
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.galeria__verTodo {
+    text-align: right;
+    font-family: 'Raleways', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.galeria__verTodo a {
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.galeria__producto {
+    display: flex;
+    flex-wrap: wrap;
+        
+}
+
+.galeria__contenido {
+    align-self: stretch;
+    padding: 1rem 1rem 0.5rem 0;
+    width: calc(16% - 1rem);
+}
+
+.galeria__descripcion {
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.galeria__descripcion p:first-child {
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+.galeria__descripcion p a {
+    color: #2A7AE4;
+    text-decoration: none;
+}

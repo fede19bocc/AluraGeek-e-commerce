@@ -1,0 +1,75 @@
+.pie__desarrollado {
+    background: #FFFFFF;
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    font-size: 1rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.pie__contacto {
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+}
+
+.pie__contacto-items {
+    display: flex;
+    flex-direction: row;
+    padding: 7rem;
+    line-height: 1.1875rem;
+}
+
+.pie__contacto-imagen {
+   height: min-content;
+   padding: 0 7rem 0  0;
+}
+
+.pie__contacto-listado {
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    font-size: 1rem;
+    padding-right: 7rem;
+    gap: 1.1875rem;
+    
+}
+
+.pie__contacto-formulario-items {
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    font-size: 1rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 35rem;
+}
+.pie__contacto-formulario-datos {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+}
+
+.pie__contacto-nombre {
+    background: #FFFFFF;
+    border: #FFFFFF;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 4px;
+    
+    text-align:initial;
+    height: 3.5rem;
+}
+
+.pie__contacto-mensaje {
+    background: #FFFFFF;
+    border: #FFFFFF;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 4px;
+    height: 5.125rem;
+}

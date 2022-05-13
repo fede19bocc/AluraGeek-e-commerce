@@ -1,0 +1,45 @@
+.encabezado {
+    align-items: center;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.encabezado__logo-barra {
+    display: flex;
+    align-items: center;
+}
+
+.encabezado__barra {
+    margin-left: 1rem;
+}
+
+.encabezado__input {
+    background: #F5F5F5;
+    border-color: #F5F5F5;
+    border-radius: 10px;
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    height: 3.1875rem;
+    width: 25rem;
+}
+
+.encabezado__botonBuscar {
+    background: #F5F5F5;
+    border-color: #F5F5F5;
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    height: 3.1875rem;
+}
+
+.encabezado__login {
+    background: #FFFFFF;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color: #464646;
+    font-family: 'Raleways', sans-serif;
+    height: 3.1875rem;
+    width: 11.375rem;
+}
