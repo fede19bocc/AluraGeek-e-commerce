@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>AluraGeek</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/pie.css">
+        <link rel="stylesheet" href="./css/encabezado.css">
+        <link rel="stylesheet" href="./css/login.css">
+    </head>
+    <body>
+        <header class="encabezado">
+            <div class="encabezado__logo-barra">
+                <img class="encabezado__logo" src="./Imagenes/Logo.png" alt="logo">
+
+                <form class= "encabezado__barra" action="#">
+
+                    <input class="encabezado__input" type="text" placeholder="Qué desea buscar?" name="search">
+                    <button class= "encabezado__botonBuscar" type="summit"><i>&#128270</i></button>
+                </form>
+            </div>    
+            <button class="encabezado__login" type="submit">Login</button>
+        </header>
+        <main>
+            <section class="login">
+                <h2 class="login__titulo">Iniciar Sesión</h2>
+                <div class="login__input">
+                    <input type="text" placeholder="Escriba su correo electrónico" class="login__input-nombre">
+                    <input type="text" placeholder="Escriba su contraseña" class="login__input-clave">
+                </div>
+                <button:sumit class="login__boton">Entrar</button:sumit>
+            </section>
+        </main>
+        <footer class="pie">
+            <section class="pie__contacto">
+                <div class="pie__contacto-items">
+                    <img class="pie__contacto-imagen" src="Imagenes/Logo.png">
+
+                    <div class="pie__contacto-listado">      
+                            <p>Quienes somos</p>
+                            <p>Política de privacidad</p>
+                            <p>Programa de fidelidad</p>
+                            <p>Nuestras Tiendas</p>
+                            <p>Quiero ser franquiciado</p>
+                            <p>Anúncie aquí</p>
+                    </div>
+
+                    <div class="pie__contacto-formulario">
+                        <form class="pie__contacto-formulario-items">
+                            <label>Hable con nosotros</label>
+                            <div class="pie__contacto-formulario-datos">
+                                <label>Nombre</label>
+                                <input  class="pie__contacto-nombre" type="text">
+                            </div>
+                            <div class="pie__contacto-formulario-datos">
+                                <label>Mensaje</label>
+                                <input class="pie__contacto-mensaje" type="text">
+                            </div>
+                            <button type="submit">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="pie__desarrollado">
+                    <p>Desarrollado por Federico Boccazzi</p>
+                    <p>2022</p>
+            </section>
+        </footer>
+    </body>
+</html>
+<script src="./js/login.js"></script>
