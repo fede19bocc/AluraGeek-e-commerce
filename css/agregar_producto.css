@@ -1,0 +1,17 @@
+.producto {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    height: min-content;
+    align-items: center;
+}
+
+.producto__imagen {
+    display: flex;
+}
+
+.producto__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
