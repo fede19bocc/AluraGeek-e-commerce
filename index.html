@@ -3,7 +3,7 @@
 <html lang="esp">
 
     <head>
-
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
         <meta charset="UTF-8">
         <title>AluraGeek</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="./css/encabezado.css">
         <link rel="stylesheet" href="./css/banner.css">
         <link rel="stylesheet" href="./css/galeria.css">
-        <link rel="stylesheet" href="./css/contacto.css">
         <link rel="stylesheet" href="./css/pie.css">
 
     </head>
@@ -27,15 +26,14 @@
                 <form class= "encabezado__barra" action="#">
 
                     <input class="encabezado__input" type="text" placeholder="Qué desea buscar?" name="search">
-                    <button class= "encabezado__botonBuscar" type="summit"><i>&#128270</i></button>
+                    <button class= "encabezado__botonBuscar" type="submit"><i>&#128270</i></button>
                 </form>
             </div>    
-
             <button class="encabezado__login" type="submit">Login</button>
 
         </header>
 
-        <body>
+        <main>
 
             <section class="banner">
 
@@ -107,7 +105,7 @@
                     </div>
                 </div>
                 
-                <div class="galeria__productosLinea">
+                <div class="galeria__productosLinea" id="consolas">
                     <div class="galeria_productosLinea-texto">
                         <h2 class="galeria__titulo">Consolas</h2>
                         <p class="galeria__verTodo"><a href="#">ver todo →</a></p>
@@ -223,7 +221,7 @@
 
                 </div>
             </section>
-        </body>
+        </main>
 
         <footer class="pie">
             <section class="pie__contacto">
@@ -264,3 +262,4 @@
     </body>
 
 </html>
+<script src="./js/login.js"></script>
